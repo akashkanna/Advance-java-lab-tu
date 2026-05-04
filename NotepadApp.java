@@ -147,7 +147,6 @@ public class NotepadApp extends JFrame implements ActionListener {
             JOptionPane.showMessageDialog(this, "Error saving file");
         }
     }
-
     public static void main(String[] args) {
         new NotepadApp();
     }
