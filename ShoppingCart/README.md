@@ -1,5 +1,7 @@
 # ShoppingCart Web Application
 
+"4 Develop a simple Shopping Cart using JSP and JDBC." 
+
 ## Overview
 
 This is a simple Java web application for a shopping cart built with JSP and servlets. It uses MySQL for the database connection and is designed to run on Apache Tomcat.
