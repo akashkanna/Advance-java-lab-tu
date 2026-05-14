@@ -1,6 +1,6 @@
 # ShoppingCart Web Application
 
-"4 Develop a simple Shopping Cart using JSP and JDBC." 
+"5 Develop a simple Shopping Cart using JSP and JDBC." 
 
 ## Overview
 
@@ -12,7 +12,7 @@ This is a simple Java web application for a shopping cart built with JSP and ser
 - Java JDK 17+ installed
 - MySQL server installed and running
 - MySQL Connector/J JDBC driver
-
+g
 ## Project Structure
 
 - `index.jsp`, `home.jsp`, `cart.jsp`, `addToCart.jsp`, `removeFromCart.jsp`,   `checkout.jsp` — JSP pages for the UI
