@@ -1,6 +1,6 @@
 # ShoppingCart Web Application
 
-"5 Develop a simple Shopping Cart using JSP and JDBC." 
+" 5 Develop a simple Shopping Cart using JSP and JDBC. " 
 
 ## Overview
 
