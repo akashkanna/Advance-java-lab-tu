@@ -5,7 +5,9 @@
 This project is a **Java Swing (JFC) desktop application** integrated with **MySQL using JDBC**.
 It performs complete **CRUD operations (Create, Read, Update, Delete)** on student records.
 
-Advance java Lab Program [ 1 . Develop a complete data manipulation application using Swing/JFC and JDBC.]
+Advance java Lab Program
+
+ [ 1 . Develop a complete data manipulation application using Swing/JFC and JDBC.]
 
 ---
 
