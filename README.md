@@ -40,8 +40,8 @@ Concept:
 
 How to run:
 
-```powershell
-cd "d:\Advance Java\Advance-java-lab-tu\EventSetBeanDemo"
+```bash
+cd EventSetBeanDemo
 javac EventSetBeanDemo.java
 java EventSetBeanDemo
 ```
@@ -57,8 +57,8 @@ Concept:
 
 How to run:
 
-```powershell
-cd "d:\Advance Java\Advance-java-lab-tu\IntrestCalculator"
+```bash
+cd IntrestCalculator
 javac InterestCalculator.java
 java InterestCalculator
 ```
@@ -72,9 +72,9 @@ Concept:
 
 How to run:
 
-```powershell
-cd "d:\Advance Java\Advance-java-lab-tu\JavaBeansGUIBean"
-javac -d out src\com\example\javabeans\*.java
+```bash
+cd JavaBeansGUIBean
+javac -d out src/com/example/javabeans/*.java
 java -cp out com.example.javabeans.BeanDemo
 ```
 
@@ -87,8 +87,8 @@ Concept:
 
 How to run:
 
-```powershell
-cd "d:\Advance Java\Advance-java-lab-tu\NotepadApp"
+```bash
+cd NotepadApp
 javac NotepadApp.java
 java NotepadApp
 ```
@@ -105,11 +105,18 @@ How to run:
 1. Configure the MySQL database in `StudentCRUDApp.java`.
 2. Compile and run with the Connector/J jar in the classpath:
 
-```powershell
-cd "d:\Advance Java\Advance-java-lab-tu\StudentApp"
-javac -cp ".;lib\mysql-connector-j-9.6.0.jar" StudentCRUDApp.java
-java -cp ".;lib\mysql-connector-j-9.6.0.jar" StudentCRUDApp
+```bash
+cd StudentApp
+javac -cp ".;lib/mysql-connector-j-9.6.0.jar" StudentCRUDApp.java
+java -cp ".;lib/mysql-connector-j-9.6.0.jar" StudentCRUDApp
 ```
+
+> On macOS/Linux use `:` instead of `;` in the classpath:
+>
+> ```bash
+> javac -cp ".:lib/mysql-connector-j-9.6.0.jar" StudentCRUDApp.java
+> java -cp ".:lib/mysql-connector-j-9.6.0.jar" StudentCRUDApp
+> ```
 
 3. Make sure the MySQL database exists and the table is created.
 

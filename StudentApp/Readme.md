@@ -84,7 +84,7 @@ Update credentials in Java code:
 
 ```java
 private static final String URL = "jdbc:mysql://localhost:3306/testdb?useSSL=false&serverTimezone=UTC";
-private static final String USER = "root";
+private static final String USER = "your_username";
 private static final String PASS = "your_password";
 ```
 

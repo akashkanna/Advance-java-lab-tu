@@ -43,8 +43,8 @@ SOURCE /path/to/OnlineExamApp/sql/online_exam.sql;
 3. Compile the Java sources into `WEB-INF/classes`:
 
 ```bash
-cd C:\Apache\apache-tomcat-11.0.21\webapps\OnlineExamApp
-javac -d WEB-INF/classes src\com\examapp\controller\ExamController.java src\com\examapp\dao\QuestionDAO.java src\com\examapp\model\Question.java src\com\examapp\util\DBConnection.java
+cd <TOMCAT_HOME>/webapps/OnlineExamApp
+javac -d WEB-INF/classes src/com/examapp/controller/ExamController.java src/com/examapp/dao/QuestionDAO.java src/com/examapp/model/Question.java src/com/examapp/util/DBConnection.java
 ```
 
 4. Start Tomcat and open:
@@ -59,18 +59,18 @@ http://localhost:8080/OnlineExamApp
 2. Make sure the JDBC driver and JSTL JARs are in `WEB-INF/lib`.
 3. Compile the Java sources after any change:
 
-```powershell
-cd C:\Apache\apache-tomcat-11.0.21\webapps\OnlineExamApp
-if (-Not (Test-Path "WEB-INF\classes")) { New-Item -ItemType Directory -Path "WEB-INF\classes" | Out-Null }
-javac -d WEB-INF/classes src\com\examapp\controller\ExamController.java src\com\examapp\dao\QuestionDAO.java src\com\examapp\model\Question.java src\com\examapp\util\DBConnection.java
+```bash
+cd <TOMCAT_HOME>/webapps/OnlineExamApp
+mkdir -p WEB-INF/classes
+javac -d WEB-INF/classes src/com/examapp/controller/ExamController.java src/com/examapp/dao/QuestionDAO.java src/com/examapp/model/Question.java src/com/examapp/util/DBConnection.java
 ```
 
 4. Restart Tomcat to ensure the updated servlet classes are loaded:
 
-```powershell
-cd C:\Apache\apache-tomcat-11.0.21\bin
-.\shutdown.bat
-.\startup.bat
+```bash
+cd <TOMCAT_HOME>/bin
+./shutdown.sh
+./startup.sh
 ```
 
 5. Open the browser and go to:

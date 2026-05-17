@@ -25,14 +25,14 @@ g
 ## Tomcat Environment Setup
 
 1. Install Apache Tomcat and note its installation path.
-   - Example: `C:\Apache\apache-tomcat-11.0.21`
+   - Example: `<TOMCAT_HOME>`
 2. Set the `CATALINA_HOME` environment variable (optional but recommended):
    - Open System Properties > Advanced > Environment Variables
    - Add a new user/system variable:
      - Name: `CATALINA_HOME`
-     - Value: `C:\Apache\apache-tomcat-11.0.21`
+     - Value: `<TOMCAT_HOME>`
 3. Add Tomcat bin folder to `PATH` (optional):
-   - `C:\Apache\apache-tomcat-11.0.21\bin`
+   - `<TOMCAT_HOME>/bin`
 
 ## Database Setup
 
@@ -53,8 +53,8 @@ USE shopping;
 ```java
 Connection con = DriverManager.getConnection(
     "jdbc:mysql://localhost:3306/shopping",
-    "root",
-    "12345"
+    "your_username",
+    "your_password"
 );
 ```
 
@@ -66,8 +66,8 @@ Connection con = DriverManager.getConnection(
 
 1. Compile the Java source file:
 
-```powershell
-cd "C:\Apache\apache-tomcat-11.0.21\webapps\ShoppingCart"
+```bash
+cd "<TOMCAT_HOME>/webapps/ShoppingCart"
 javac -cp "WEB-INF/lib/mysql-connector-j-9.6.0.jar" -d WEB-INF/classes src/dao/DBConnection.java
 ```
 

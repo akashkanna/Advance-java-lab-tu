@@ -78,8 +78,8 @@ Example:
 
 ```java
 private static final String URL = "jdbc:mysql://127.0.0.1:3306/userauthdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
-private static final String USER = "root";
-private static final String PASSWORD = "12345";
+private static final String USER = "your_username";
+private static final String PASSWORD = "your_password";
 ```
 
 ## Build and deployment
