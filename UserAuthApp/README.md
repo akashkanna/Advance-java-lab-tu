@@ -1,7 +1,8 @@
 # UserAuthApp
-
+"4. Develop an application for User Authentication and Personalization using Servlet and JDBC. "
 ## Overview
 UserAuthApp is a simple Java web application for user registration, login, and session-based personalization.
+
 It is built using Jakarta Servlets, JSP, and MySQL, and is designed to run on Apache Tomcat 11.
 
 ## What it does
