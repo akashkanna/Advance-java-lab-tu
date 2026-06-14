@@ -20,7 +20,7 @@
 <body>
     <div class="container">
         <h1>Online Banking</h1>
-        <p>Use <strong>customer1</strong> / <strong>bank123</strong> to log in.</p>
+        <!-- <p>Use <strong>customer1</strong> / <strong>bank123</strong> to log in.</p> -->
         <% if (error != null) { %>
             <div class="error"><%= error %></div>
         <% } %>

@@ -1,15 +1,14 @@
-import javax.swing.*;
-import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.*;
 import java.sql.*;
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 
 public class StudentCRUDApp extends JFrame {
 
     private static final String URL = "jdbc:mysql://localhost:3306/testdb";
     private static final String USER = "root";
     private static final String PASS = "12345";
-
     private JTextField txtId, txtName, txtDept;
     private JTable table;
     private DefaultTableModel model;
